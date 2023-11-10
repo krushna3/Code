@@ -10,7 +10,6 @@ public class Question4 {
         String wordName = sc.nextLine();
         System.out.println("please enter a word to search ");
         String searchWordName = sc.nextLine();
-
         System.out.println("The word " + searchWordName + " is in the position of " + wordName.indexOf(searchWordName));
 
     }
